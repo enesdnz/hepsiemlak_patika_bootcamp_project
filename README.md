@@ -87,7 +87,7 @@ Sistem tarafından tutulan log kayıtlarına ilgili servis altındaki **logback.
   
 ## Unit Test Code Coverage
 
-Yazılan unit testlerin code coverage oranlarına buradan ulaşabilirsiniz. 
+Yazılan unit testlerin code coverage oranlarına [buradan](https://github.com/enesdnz/hepsiemlak_patika_bootcamp_project/tree/master/unit_test_coverage_rate) ulaşabilirsiniz. 
   
 ## Kullanılan Teknolojiler
 
