@@ -1,0 +1,101 @@
+2022-03-22 00:12:10.870  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s365ms).
+2022-03-22 00:30:34.417  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s536ms).
+2022-03-22 00:45:53.278  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 00:45:53.452  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m19s35ms).
+2022-03-22 00:47:35.737  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s285ms).
+2022-03-22 01:31:47.119  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m41s369ms).
+2022-03-22 01:37:33.088  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m45s970ms).
+2022-03-22 01:38:02.917  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s832ms), soft-evicting connections from pool.
+2022-03-22 01:45:47.949  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m45s30ms).
+2022-03-22 01:56:28.378  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m40s430ms).
+2022-03-22 02:02:16.867  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m48s341ms).
+2022-03-22 02:33:12.589  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 02:33:15.684  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m28s626ms).
+2022-03-22 02:40:49.596  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m33s913ms).
+2022-03-22 02:48:24.702  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m35s42ms).
+2022-03-22 02:52:42.597  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m47s617ms).
+2022-03-22 02:59:46.566  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m3s969ms).
+2022-03-22 03:09:38.791  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m52s224ms).
+2022-03-22 03:13:55.995  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s947ms).
+2022-03-22 04:51:09.712  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m13s715ms).
+2022-03-22 04:51:35.666  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 04:56:24.993  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m44s930ms).
+2022-03-22 04:59:11.486  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s492ms).
+2022-03-22 05:11:28.805  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m17s314ms).
+2022-03-22 05:18:04.548  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m35s734ms).
+2022-03-22 05:24:08.228  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m33s445ms).
+2022-03-22 05:38:17.595  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m9s368ms).
+2022-03-22 05:43:23.747  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m6s148ms).
+2022-03-22 06:02:46.106  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 06:02:55.012  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m881ms).
+2022-03-22 06:15:48.380  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m53s366ms).
+2022-03-22 06:19:33.595  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m45s150ms).
+2022-03-22 06:34:14.884  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m10s646ms).
+2022-03-22 06:39:06.384  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s500ms).
+2022-03-22 06:48:39.963  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m33s576ms).
+2022-03-22 07:18:09.085  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - Re-registering apps/UDAPTEADVERTSTATUS-SERVICE
+2022-03-22 07:18:09.099  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862: registering service...
+2022-03-22 07:18:09.419  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - registration status: 204
+2022-03-22 07:18:20.392  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m9s953ms).
+2022-03-22 08:33:46.152  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m25s759ms).
+2022-03-22 08:34:06.769  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 11:55:05.295  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h20m49s127ms).
+2022-03-22 18:23:42.279  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - Re-registering apps/UDAPTEADVERTSTATUS-SERVICE
+2022-03-22 18:23:42.283  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862: registering service...
+2022-03-22 18:23:42.308  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - registration status: 204
+2022-03-22 18:28:53.877  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h33m48s569ms).
+2022-03-22 18:32:45.506  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 18:37:45.526  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 18:42:45.542  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 18:47:45.510  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 18:52:45.526  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 18:57:45.511  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:02:45.519  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:07:45.522  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:12:45.532  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:17:45.547  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:22:45.561  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:27:45.572  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:32:45.591  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:37:45.608  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 19:48:10.987  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m45s600ms).
+2022-03-22 19:52:07.014  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m56s27ms).
+2022-03-22 19:55:26.104  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:00:25.969  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:05:25.981  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:10:25.998  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:15:26.015  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:20:26.029  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:25:26.042  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:30:26.058  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:35:26.073  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:40:26.086  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:45:26.102  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:50:26.117  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 20:55:26.133  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:00:26.151  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:05:26.164  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:10:26.175  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:15:26.192  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:20:26.212  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:25:26.224  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:30:26.239  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:35:26.278  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:35:33.052  INFO 287 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.u.service.AdvertService              : The status no: 12004 advert has been updated.
+2022-03-22 21:38:47.801  INFO 287 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.u.service.AdvertService              : The status no: 69518 advert has been updated.
+2022-03-22 21:39:28.886  INFO 287 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.u.service.AdvertService              : The status no: 36084 advert has been updated.
+2022-03-22 21:39:43.872  INFO 287 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.u.service.AdvertService              : The status no: 32147 advert has been updated.
+2022-03-22 21:40:26.299  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:45:26.314  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 21:50:26.333  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 22:00:43.658  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m5s808ms).
+2022-03-22 22:23:09.903  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m56s230ms).
+2022-03-22 22:24:50.977  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s74ms).
+2022-03-22 22:33:42.305  WARN 287 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m51s328ms).
+2022-03-22 22:34:01.995  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - Re-registering apps/UDAPTEADVERTSTATUS-SERVICE
+2022-03-22 22:34:01.995  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862: registering service...
+2022-03-22 22:34:02.020  INFO 287 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UDAPTEADVERTSTATUS-SERVICE/Enes-MacBook-Pro.local:udapteAdvertStatus-service:5862 - registration status: 204
+2022-03-22 22:35:00.758  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 22:40:00.769  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 22:45:00.787  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-22 22:50:00.804  INFO 287 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

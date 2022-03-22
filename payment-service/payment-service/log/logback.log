@@ -1,0 +1,241 @@
+2022-03-21 21:30:33.185  INFO 27217 --- [main] c.e.p.service.PaymentServiceImplTest     : Starting PaymentServiceImplTest using Java 11.0.11 on Enes-MacBook-Pro.local with PID 27217 (started by enes in /Users/enes/Desktop/hepsiemlak_project/payment-service)
+2022-03-21 21:30:33.188  INFO 27217 --- [main] c.e.p.service.PaymentServiceImplTest     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 21:30:33.229  INFO 27217 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:5859
+2022-03-21 21:30:33.230  INFO 27217 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=payment-service, profiles=[default], label=null, version=null, state=null
+2022-03-21 21:30:34.613  INFO 27217 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 21:30:34.969  INFO 27217 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 315 ms. Found 2 JPA repository interfaces.
+2022-03-21 21:30:35.404  INFO 27217 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dac5250e-5812-3552-a054-d8a990d91f06
+2022-03-21 21:30:36.124  INFO 27217 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 21:30:36.203  INFO 27217 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 21:30:36.477  INFO 27217 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 21:30:36.639  INFO 27217 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 21:30:37.209  INFO 27217 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 21:30:37.247  INFO 27217 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-21 21:30:38.668  INFO 27217 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 21:30:38.683  INFO 27217 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 21:30:39.481  WARN 27217 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 21:30:40.582  INFO 27217 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-03-21 21:30:40.972  WARN 27217 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-21 21:30:41.052  INFO 27217 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-21 21:30:41.198  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-21 21:30:41.209  INFO 27217 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-21 21:30:41.249  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-03-21 21:30:41.249  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-03-21 21:30:41.249  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-03-21 21:30:41.249  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-03-21 21:30:41.249  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-03-21 21:30:41.250  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-03-21 21:30:41.250  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-03-21 21:30:41.750  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-03-21 21:30:41.754  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-03-21 21:30:41.759  INFO 27217 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-21 21:30:41.766  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1647887441765 with initial instances count: 6
+2022-03-21 21:30:41.772  INFO 27217 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2022-03-21 21:30:41.773  INFO 27217 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647887441773, current=UP, previous=STARTING]
+2022-03-21 21:30:41.776  INFO 27217 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 21:30:41.805  INFO 27217 --- [main] c.e.p.service.PaymentServiceImplTest     : Started PaymentServiceImplTest in 10.725 seconds (JVM running for 14.032)
+2022-03-21 21:30:41.858  INFO 27217 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 21:30:42.470  INFO 27217 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2022-03-21 21:30:42.472  INFO 27217 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647887442472, current=DOWN, previous=UP]
+2022-03-21 21:30:42.474  INFO 27217 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 21:30:42.483  INFO 27217 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 21:30:42.484  INFO 27217 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 21:30:42.487  INFO 27217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 21:30:42.524  INFO 27217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-21 21:30:42.525  INFO 27217 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-21 21:30:45.531  INFO 27217 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-03-21 21:30:45.540  INFO 27217 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - deregister  status: 200
+2022-03-21 21:30:45.549  INFO 27217 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-03-21 21:31:18.399  INFO 27351 --- [main] c.e.p.service.PaymentServiceImplTest     : Starting PaymentServiceImplTest using Java 11.0.11 on Enes-MacBook-Pro.local with PID 27351 (started by enes in /Users/enes/Desktop/hepsiemlak_project/payment-service)
+2022-03-21 21:31:18.401  INFO 27351 --- [main] c.e.p.service.PaymentServiceImplTest     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 21:31:18.477  INFO 27351 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:5859
+2022-03-21 21:31:18.477  INFO 27351 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=payment-service, profiles=[default], label=null, version=null, state=null
+2022-03-21 21:31:19.959  INFO 27351 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 21:31:20.309  INFO 27351 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 334 ms. Found 2 JPA repository interfaces.
+2022-03-21 21:31:20.772  INFO 27351 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dac5250e-5812-3552-a054-d8a990d91f06
+2022-03-21 21:31:21.760  INFO 27351 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 21:31:21.842  INFO 27351 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 21:31:22.203  INFO 27351 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 21:31:22.404  INFO 27351 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 21:31:23.302  INFO 27351 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 21:31:23.818  INFO 27351 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-21 21:31:25.978  INFO 27351 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 21:31:25.993  INFO 27351 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 21:31:27.399  WARN 27351 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 21:31:29.280  INFO 27351 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-03-21 21:31:29.625  WARN 27351 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-21 21:31:29.712  INFO 27351 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-21 21:31:29.896  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-21 21:31:29.915  INFO 27351 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-21 21:31:29.965  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-03-21 21:31:29.966  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-03-21 21:31:32.168  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-03-21 21:31:32.175  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-03-21 21:31:32.182  INFO 27351 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-21 21:31:32.197  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1647887492193 with initial instances count: 6
+2022-03-21 21:31:32.341  INFO 27351 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2022-03-21 21:31:32.343  INFO 27351 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647887492343, current=UP, previous=STARTING]
+2022-03-21 21:31:32.349  INFO 27351 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 21:31:32.522  INFO 27351 --- [main] c.e.p.service.PaymentServiceImplTest     : Started PaymentServiceImplTest in 16.485 seconds (JVM running for 21.646)
+2022-03-21 21:31:32.536  INFO 27351 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 21:34:18.020  WARN 27351 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s617ms).
+2022-03-21 21:34:18.080  INFO 27351 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - Re-registering apps/PAYMENT-SERVICE
+2022-03-21 21:34:18.080  INFO 27351 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 21:34:18.095  INFO 27351 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 21:34:18.095  INFO 27351 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2022-03-21 21:34:18.095  INFO 27351 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647887658095, current=DOWN, previous=UP]
+2022-03-21 21:34:18.096  INFO 27351 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 21:34:18.105  INFO 27351 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 21:34:18.108  INFO 27351 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 21:34:18.111  INFO 27351 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 21:34:18.152  INFO 27351 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-21 21:34:18.153  INFO 27351 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-21 22:02:16.946  INFO 33240 --- [main] c.e.p.service.PaymentServiceImplTest     : Starting PaymentServiceImplTest using Java 11.0.11 on Enes-MacBook-Pro.local with PID 33240 (started by enes in /Users/enes/Desktop/hepsiemlak_project/payment-service)
+2022-03-21 22:02:16.948  INFO 33240 --- [main] c.e.p.service.PaymentServiceImplTest     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 22:02:17.004  INFO 33240 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:5859
+2022-03-21 22:02:17.005  INFO 33240 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=payment-service, profiles=[default], label=null, version=null, state=null
+2022-03-21 22:02:18.376  INFO 33240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 22:02:18.720  INFO 33240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 331 ms. Found 2 JPA repository interfaces.
+2022-03-21 22:02:19.143  INFO 33240 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dac5250e-5812-3552-a054-d8a990d91f06
+2022-03-21 22:02:19.822  INFO 33240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 22:02:19.888  INFO 33240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 22:02:20.148  INFO 33240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 22:02:20.327  INFO 33240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 22:02:20.866  INFO 33240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 22:02:20.906  INFO 33240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-21 22:02:22.356  INFO 33240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 22:02:22.368  INFO 33240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:02:23.154  WARN 33240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 22:02:24.088  INFO 33240 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-03-21 22:02:24.325  WARN 33240 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-21 22:02:24.392  INFO 33240 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-21 22:02:24.515  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-21 22:02:24.521  INFO 33240 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-21 22:02:24.596  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-03-21 22:02:24.598  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-03-21 22:02:24.599  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-03-21 22:02:24.600  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-03-21 22:02:24.601  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-03-21 22:02:24.602  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-03-21 22:02:24.603  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-03-21 22:02:24.990  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-03-21 22:02:24.994  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-03-21 22:02:24.998  INFO 33240 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-21 22:02:25.005  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1647889345003 with initial instances count: 6
+2022-03-21 22:02:25.010  INFO 33240 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2022-03-21 22:02:25.010  INFO 33240 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889345010, current=UP, previous=STARTING]
+2022-03-21 22:02:25.013  INFO 33240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:02:25.033  INFO 33240 --- [main] c.e.p.service.PaymentServiceImplTest     : Started PaymentServiceImplTest in 9.86 seconds (JVM running for 13.398)
+2022-03-21 22:02:25.087  INFO 33240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:02:25.759  INFO 33240 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2022-03-21 22:02:25.761  INFO 33240 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889345761, current=DOWN, previous=UP]
+2022-03-21 22:02:25.763  INFO 33240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:02:25.774  INFO 33240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:02:25.776  INFO 33240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:02:25.786  INFO 33240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 22:02:25.878  INFO 33240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-21 22:02:25.879  INFO 33240 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-21 22:02:28.883  INFO 33240 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-03-21 22:02:28.891  INFO 33240 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - deregister  status: 200
+2022-03-21 22:02:28.900  INFO 33240 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-03-21 22:04:13.041  INFO 33613 --- [main] c.e.p.service.PaymentServiceImplTest     : Starting PaymentServiceImplTest using Java 11.0.11 on Enes-MacBook-Pro.local with PID 33613 (started by enes in /Users/enes/Desktop/hepsiemlak_project/payment-service)
+2022-03-21 22:04:13.043  INFO 33613 --- [main] c.e.p.service.PaymentServiceImplTest     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 22:04:13.096  INFO 33613 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:5859
+2022-03-21 22:04:13.097  INFO 33613 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=payment-service, profiles=[default], label=null, version=null, state=null
+2022-03-21 22:04:14.315  INFO 33613 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 22:04:14.777  INFO 33613 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 409 ms. Found 2 JPA repository interfaces.
+2022-03-21 22:04:15.199  INFO 33613 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dac5250e-5812-3552-a054-d8a990d91f06
+2022-03-21 22:04:15.894  INFO 33613 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 22:04:15.970  INFO 33613 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 22:04:16.223  INFO 33613 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 22:04:16.374  INFO 33613 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 22:04:16.940  INFO 33613 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 22:04:16.988  INFO 33613 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-21 22:04:18.164  INFO 33613 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 22:04:18.181  INFO 33613 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:04:19.195  WARN 33613 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 22:04:20.209  INFO 33613 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-03-21 22:04:20.473  WARN 33613 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-21 22:04:20.549  INFO 33613 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-21 22:04:20.677  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-21 22:04:20.692  INFO 33613 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-21 22:04:20.740  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-03-21 22:04:20.741  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-03-21 22:04:20.741  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-03-21 22:04:20.741  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-03-21 22:04:20.742  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-03-21 22:04:20.742  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-03-21 22:04:20.742  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-03-21 22:04:21.165  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-03-21 22:04:21.169  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-03-21 22:04:21.173  INFO 33613 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-21 22:04:21.180  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1647889461178 with initial instances count: 6
+2022-03-21 22:04:21.185  INFO 33613 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2022-03-21 22:04:21.186  INFO 33613 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889461186, current=UP, previous=STARTING]
+2022-03-21 22:04:21.189  INFO 33613 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:04:21.230  INFO 33613 --- [main] c.e.p.service.PaymentServiceImplTest     : Started PaymentServiceImplTest in 9.592 seconds (JVM running for 13.89)
+2022-03-21 22:04:21.269  INFO 33613 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:04:21.875  INFO 33613 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2022-03-21 22:04:21.876  INFO 33613 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889461876, current=DOWN, previous=UP]
+2022-03-21 22:04:21.877  INFO 33613 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:04:21.883  INFO 33613 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:04:21.887  INFO 33613 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:04:21.890  INFO 33613 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 22:04:21.933  INFO 33613 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-21 22:04:21.934  INFO 33613 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-21 22:04:24.939  INFO 33613 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-03-21 22:04:24.953  INFO 33613 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - deregister  status: 200
+2022-03-21 22:04:24.962  INFO 33613 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-03-21 22:05:43.467  INFO 33898 --- [main] c.e.p.service.PaymentServiceImplTest     : Starting PaymentServiceImplTest using Java 11.0.11 on Enes-MacBook-Pro.local with PID 33898 (started by enes in /Users/enes/Desktop/hepsiemlak_project/payment-service)
+2022-03-21 22:05:43.469  INFO 33898 --- [main] c.e.p.service.PaymentServiceImplTest     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 22:05:43.510  INFO 33898 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:5859
+2022-03-21 22:05:43.511  INFO 33898 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=payment-service, profiles=[default], label=null, version=null, state=null
+2022-03-21 22:05:44.899  INFO 33898 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 22:05:45.205  INFO 33898 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 293 ms. Found 2 JPA repository interfaces.
+2022-03-21 22:05:45.640  INFO 33898 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dac5250e-5812-3552-a054-d8a990d91f06
+2022-03-21 22:05:46.332  INFO 33898 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 22:05:46.414  INFO 33898 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 22:05:46.683  INFO 33898 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 22:05:46.828  INFO 33898 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 22:05:47.400  INFO 33898 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 22:05:47.458  INFO 33898 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-21 22:05:48.932  INFO 33898 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 22:05:48.943  INFO 33898 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:05:49.701  WARN 33898 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 22:05:50.655  INFO 33898 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-03-21 22:05:50.960  WARN 33898 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-21 22:05:51.033  INFO 33898 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-21 22:05:51.170  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-21 22:05:51.191  INFO 33898 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-03-21 22:05:51.262  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-03-21 22:05:51.262  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-03-21 22:05:51.263  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-03-21 22:05:51.263  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-03-21 22:05:51.263  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-03-21 22:05:51.264  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-03-21 22:05:51.264  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-03-21 22:05:51.763  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-03-21 22:05:51.775  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-03-21 22:05:51.783  INFO 33898 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-21 22:05:51.790  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1647889551789 with initial instances count: 6
+2022-03-21 22:05:51.798  INFO 33898 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2022-03-21 22:05:51.798  INFO 33898 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889551798, current=UP, previous=STARTING]
+2022-03-21 22:05:51.801  INFO 33898 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:05:51.830  INFO 33898 --- [main] c.e.p.service.PaymentServiceImplTest     : Started PaymentServiceImplTest in 9.841 seconds (JVM running for 14.102)
+2022-03-21 22:05:51.871  INFO 33898 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:05:52.451  INFO 33898 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2022-03-21 22:05:52.454  INFO 33898 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1647889552454, current=DOWN, previous=UP]
+2022-03-21 22:05:52.458  INFO 33898 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864: registering service...
+2022-03-21 22:05:52.470  INFO 33898 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - registration status: 204
+2022-03-21 22:05:52.472  INFO 33898 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 22:05:52.474  INFO 33898 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 22:05:52.492  INFO 33898 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-21 22:05:52.492  INFO 33898 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-21 22:05:55.499  INFO 33898 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-03-21 22:05:55.508  INFO 33898 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.1.25:payment-service:5864 - deregister  status: 200
+2022-03-21 22:05:55.530  INFO 33898 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

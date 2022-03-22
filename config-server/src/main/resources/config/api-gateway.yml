@@ -1,0 +1,50 @@
+server:
+  port: 5860
+  # server name
+spring:
+  application:
+    name: api-gateway
+  config:
+    import: "optional:configserver:"
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:5863/auth
+  cloud:
+    gateway:
+      routes:
+        - id: common-service
+          uri: http://localhost:5861
+          predicates:
+            - Path=/advert/**, /user/**, /product/**
+        - id: auth-service
+          uri: http://localhost:5863
+          predicates:
+            - Path=/auth/**
+            - Method=POST
+        - id: payment-service
+          uri: http://localhost:5864
+          predicates:
+            - Path=/payments/**
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
+
+
+# Eureka address information configuration
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:5858/eureka
+    #register-with-eureka: false # Whether to register your own information to EurekaServer, the default is true
+    #fetch-registry: false # Whether to pull information about other services, the default is true
+logging:
+  level:
+    '[org.springframework.security]': TRACE
+
+
+
+
+
