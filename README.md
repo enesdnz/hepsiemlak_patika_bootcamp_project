@@ -1,5 +1,5 @@
 
-# Hepsiemlak - Patika - Bootcamp
+# <img src="https://github.com/enesdnz/hepsiemlak_patika_bootcamp_project/blob/master/screenshot/logo.png" width="60"/> Hepsiemlak - Patika - Bootcamp
 
 Bu proje Patika.dev' in aracılığıyla düzenlenen Hepsiemlak Java Spring Bootcamp bitirme ödevidir.
 
@@ -113,6 +113,10 @@ Yazılan unit testlerin code coverage oranlarına [buradan](https://github.com/e
 
 - Muhammet Enes Deniz [Linkedin](https://www.linkedin.com/in/muhammetenesdeniz/)
 - [Github ](https://github.com/enesdnz)
+
+## LICENSE
+
+Distributed under the MIT License. See [LICENSE](https://github.com/enesdnz/hepsiemlak_patika_bootcamp_project/blob/master/LICENSE) for more information.
 
   
  
